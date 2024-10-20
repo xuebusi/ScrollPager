@@ -23,7 +23,7 @@ public struct PagingScrollView<T, Content: View>: View {
     }
     
     // 动画配置
-    private let animation = Animation.spring(response: 0.5, dampingFraction: 0.825, blendDuration: 0)
+    private let animation = Animation.spring(response: 0.3, dampingFraction: 0.825, blendDuration: 0)
     
     public var body: some View {
         GeometryReader {
